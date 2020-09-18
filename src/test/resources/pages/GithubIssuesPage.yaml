@@ -4,7 +4,7 @@ CREATED_TAB:
     value: //a[text()='Created']
   android:
     type: xpath
-    value: //o.b.k.a.c[@content-desc="Created"]/android.widget.TextView
+    value: //m.b.k.a.c[@content-desc="Created"]/android.widget.TextView
 
 ASSIGNED_TAB:
   web:
@@ -12,7 +12,7 @@ ASSIGNED_TAB:
     value: //a[text()='Assigned']
   android:
     type: xpath
-    value: //o.b.k.a.c[@content-desc="Assigned"]/android.widget.TextView
+    value: //m.b.k.a.c[@content-desc="Assigned"]/android.widget.TextView
 
 MENTIONED_TAB:
   web:
@@ -20,9 +20,9 @@ MENTIONED_TAB:
     value: //a[text()='Mentioned']
   android:
     type: xpath
-    value: //o.b.k.a.c[@content-desc="Mentioned"]/android.widget.TextView
+    value: //m.b.k.a.c[@content-desc="Mentioned"]/android.widget.TextView
 
 BACK_BUTTON:
   android:
     type: xpath
-    value: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.ImageButton
+    value: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.ImageButton

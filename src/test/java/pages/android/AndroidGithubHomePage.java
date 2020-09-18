@@ -19,4 +19,11 @@ public class AndroidGithubHomePage extends GithubHomePage {
     public void goToOrganizations(){
         $("ORGANIZATIONS_BUTTON").click();
     }
+
+    @Override
+    public void verifyLoggedInGithub() throws InterruptedException {
+        $("GITHUB").click();
+        $("USER_ICON").should(Condition.appear).isDisplayed();
+        Thread.sleep(5000);
+    }
 }

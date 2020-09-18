@@ -10,7 +10,7 @@ import static cross.automationLibrary.configuration.Platform.Constants.WEB;
 @Component
 @Profile({WEB})
 public class GithubHomePage extends BasePage<GithubHomePage> {
-    public void verifyLoggedInGithub(){
+    public void verifyLoggedInGithub() throws InterruptedException {
         $("USER_ICON").should(Condition.appear).isDisplayed();
     }
 

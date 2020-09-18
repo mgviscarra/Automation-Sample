@@ -8,7 +8,7 @@ import pages.GithubHomePage;
 public class GitHubHomePageSteps extends BaseSteps {
     GithubHomePage githubHomePage;
     @Then("I verify that I am logged in Github")
-    public void verifyLoggedInGithub() {
+    public void verifyLoggedInGithub() throws InterruptedException {
         githubHomePage.verifyLoggedInGithub();
     }
     @And("I go to pull requests")
