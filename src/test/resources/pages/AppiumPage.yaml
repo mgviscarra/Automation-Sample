@@ -1,0 +1,7 @@
+APPIUM_HEADER:
+  android:
+    type: xpath
+    value: //android.view.View[@content-desc="Appium"]/android.widget.TextView
+  web:
+    type: css
+    value: a.navbar-brand

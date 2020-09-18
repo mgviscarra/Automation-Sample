@@ -1,0 +1,12 @@
+REPOSITORIES_LABEL:
+  web:
+    type: xpath
+    value: //a[@aria-current='page']
+  android:
+    type: id
+    value: com.github.android:id/title
+
+BACK_BUTTON:
+  android:
+    type: xpath
+    value: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.ImageButton

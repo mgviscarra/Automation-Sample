@@ -1,0 +1,49 @@
+USER_ICON:
+    web:
+      type: css
+      value: summary.Header-link
+    android:
+      type: xpath
+      value: //android.widget.ImageButton[@content-desc="Profile"]
+
+ISSUES_BUTTON:
+  web:
+    type: xpath
+    value: //a[@aria-label='Issues you created']
+  android:
+    type: xpath
+    value: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.ViewAnimator/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.TextView
+
+PULL_REQUESTS_BUTTON:
+  web:
+    type: xpath
+    value: //a[@aria-label='Pull requests you created']
+  android:
+    type: xpath
+    value: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.ViewAnimator/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[3]/android.widget.LinearLayout/android.widget.TextView
+
+REPOSITORIES_BUTTON:
+  web:
+    type: xpath
+    value: //a[text()='Your repositories']
+  android:
+    type: xpath
+    value: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.ViewAnimator/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[4]/android.widget.LinearLayout/android.widget.TextView
+
+ORGANIZATIONS_BUTTON:
+  web:
+    type: xpath
+    value: //a[text()='Your organizations']
+  android:
+    type: xpath
+    value: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.ViewAnimator/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[5]/android.widget.LinearLayout/android.widget.TextView
+
+MENU_DROPDOWN:
+  web:
+    type: xpath
+    value: //summary[@aria-label='View profile and more']
+
+BACK_BUTTON:
+  android:
+    type: xpath
+    value: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.ImageButton

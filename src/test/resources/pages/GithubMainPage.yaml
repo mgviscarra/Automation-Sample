@@ -1,0 +1,46 @@
+SIGN_IN_LINK:
+  web:
+    type: xpath
+    value: //a[@class='HeaderMenu-link no-underline mr-3']
+  android:
+    type: id
+    value: com.github.android:id/login_button
+
+EMAIL_TEXT_BOX:
+  web:
+    type: id
+    value: login_field
+  android:
+    type: xpath
+    value: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View[3]/android.view.View/android.view.View/android.widget.EditText[1]
+
+
+PASSWORD_TEXT_BOX:
+  web:
+    type: id
+    value: password
+  android:
+    type: xpath
+    value: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View[3]/android.view.View/android.view.View/android.widget.EditText[2]
+
+SIGN_IN_BUTTON:
+  web:
+    type: xpath
+    value: //input[@type='submit']
+  android:
+    type: xpath
+    value: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View[3]/android.view.View/android.view.View/android.widget.Button
+
+INCORRECT_CREDENTIALS_MESSAGE:
+  web:
+    type: xpath
+    value: //div[@class='container-lg px-2']
+  android:
+    type: xpath
+    value: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View[3]/android.view.View/android.view.View[1]/android.view.View[2]/android.view.View/android.view.View/android.widget.TextView
+
+
+
+
+
+
